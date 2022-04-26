@@ -1,6 +1,8 @@
 $(document).on('click', '.menu__btn', function(e){
   e.preventDefault;
   $('.menu__btn-active').removeClass('menu__btn-active');
+  $('.menu__first').removeClass('menu__first-active');
+  $('.header').removeClass('header__active');
   $(this).addClass('menu__btn-active');  
 })
  /*ПОРЦИОННЫЕ*/
