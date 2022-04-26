@@ -7,7 +7,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$('.main__btn').on('click', function(){
+	$('.main__rekvis').on('click', function(){
 		$('.popup').toggleClass('popup__active');
 		$('.popup__bcg').toggleClass('popup__active');
 		// $('.header__window').toggleClass('header__window-active')
