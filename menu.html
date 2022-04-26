@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Меню|Orengo</title>
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<style>
+		::-webkit-scrollbar-button {
+		background-image:url('');
+		background-repeat:no-repeat;
+		width:3px;
+		height:0px
+		}
+
+		::-webkit-scrollbar-track {
+		background-color:rgba(225, 225, 225, 225);
+		}
+
+		::-webkit-scrollbar-thumb {
+			-webkit-border-radius: 0px;
+			border-radius: 50px;
+			background-color: rgba(0,0,0,0.5);		
+		}
+
+		::-webkit-resizer{
+		background-image:url('');
+		background-repeat:no-repeat;
+		width:3px;
+		height:0px
+		}
+
+		::-webkit-scrollbar{
+			width: 8px;
+			height: 10px;
+		}
+	</style>
+</head>
+<body>
+	
+
+	<header class="header" id="header">
+		<div class="container">
+			<div class="header__mobile-btn"><span></span></div>
+			<div class="header__wrap">
+				<a href="index.html" class="header__logo">
+					<span class="header__img"></span>
+				</a>
+
+				<nav class="header__nav">
+					<ul>
+						<a href="index.html" class="header__a"><li>Главная</li></a>
+						<a href="menu.html" class="header__a header__a-active"><li>Меню</li></a>
+						<a href="#" class="header__a"><li>Адреса</li></a>
+					</ul>
+				</nav>
+				<a href='tel:+79604298000' class="header__phone">
+					+79267600177
+				</a>
+			</div>
+			
+		</div>
+	</header>
+
+
+	<div class="background">
+		<div class="background__blur"></div>
+		<div class="background__blur"></div>
+	</div>
+
+	<section class="menu" id="menu">
+		<div class="container">
+			<div class="menu__wrap">
+				<div class="menu__nav-btn"><span></span></div>
+				<div class="menu__first">
+					<div class="menu__nav">
+						<div class="menu__btn" onclick="showContent('pages/tort.html'), formAjax()">торты</div>
+						<div class="menu__btn" onclick="showContent('pages/zakus.html'), formAjax()">закуски</div>
+						<div class="menu__btn" onclick="showContent('pages/granola.html'), formAjax()">гранола</div>
+						<div class="menu__btn menu__btn-active menu__btn-240" onclick="showContent('pages/porcion.html'), formAjax()">Порционные десерты</div>
+						<div class="menu__btn" onclick="showContent('pages/pie.html'), formAjax()">пироги</div>
+						<div class="menu__btn menu__btn-200" onclick="showContent('pages/sladkie.html'), formAjax()">Сладкие наборы</div>
+						<div class="menu__btn" onclick="showContent('pages/vipech.html'), formAjax()">выпечка</div>
+						
+					</div>
+				</div>
+				<div class="menu__second" id="ajax">
+					<div class="menu__list">
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+						<div class="menu__list-item tg"><h4>тарталетка с голубикой</h4></div>
+						<div class="menu__list-item ft"><h4>фисташковая тарталетка</h4></div>
+					</div>
+
+					<div class="menu__side">
+						<div class="menu__side-wrap">
+							<div class="menu__side-item tg-t">
+								<div class="menu__side-img" style="background-image: url(./img/menu-img/tg.jpg);"></div>
+								<div class="menu__side-text">
+									<h1 class="menu__side-title">тарталетка с голубикой</h1>
+									<p class="menu__side-p">
+										БЕЗГЛЮТЕНОВАЯ ТАРТАЛЕТКА С МИНДАЛЬНЫМ ФРАНЖИПАНОМ, ЛЕГКИМ ТВОРОЖНЫМ КРЕМОМ И СВЕЖЕЙ ГОЛУБИКОЙ</br></br>
+										230р
+									</p>
+								</div>
+							</div>
+							<div class="menu__side-item ft-t">
+								<div class="menu__side-img" style="background-image: url(./img/menu-img/ft.jpg);"></div>
+								<div class="menu__side-text">
+									<h1 class="menu__side-title">фисташкаовая тарталетка</h1>
+									<p class="menu__side-p">
+										ХРУСТЯЩАЯ ПЕСОЧНАЯ ОСНОВА, НЕЖНЫЙ ФИСТАШКОВО-МИНДАЛЬНЫЙ ФРАНЖИПАН И ЗАВАРНОЙ ФИСТАШКОВЫЙ КРЕМ</br></br>
+										220 РУБЛЕЙ
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+	</section>
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/content.js"></script>
+</body>
+</html>

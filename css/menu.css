@@ -1,0 +1,122 @@
+.menu {
+  z-index: 4;
+  /**/
+  /* .menu__wrap */
+  /* .menu__first */
+  /* .menu__nav */
+  /* .menu__btn */
+  /**/
+  /**/
+  /**/
+  /* .menu__second */
+  /* .menu__list */
+  /* .menu__list-item */
+  /* .menu__item */
+  /* .menu__side */
+  /* .menu__side-wrap */
+  /* .menu__side-img */
+  /* .menu__side-title */
+  /* .menu__side-p */
+  /**/
+  /**/
+}
+.menu__nav-btn {
+  display: none;
+}
+.menu__wrap {
+  margin-top: 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.menu__nav {
+  width: 350px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+.menu__btn {
+  cursor: pointer;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 20px;
+  color: #C04A81;
+  width: 138px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 31px;
+  border-radius: 10px;
+  border: 1px solid #C04A81;
+  text-transform: lowercase;
+  transition: .5s ease;
+}
+.menu__btn:hover {
+  color: #fff;
+  background-color: #C04A81;
+}
+.menu__btn-active {
+  color: #fff;
+  background-color: #C04A81;
+}
+.menu__btn-200 {
+  width: 170px;
+}
+.menu__btn-240 {
+  width: 220px;
+}
+.menu__list-item {
+  cursor: pointer;
+  width: 540px;
+  border-top: 1px solid #000;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.menu__list-item h4 {
+  transition: .5s ease;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 100;
+}
+.menu__list-item:hover h4 {
+  margin-left: 20px;
+}
+.menu__side-item {
+  display: none;
+}
+.menu__side {
+  display: none;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 50%;
+  height: 100vh;
+  background-color: #fff;
+}
+.menu__side-wrap {
+  width: 340px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.menu__side-img {
+  margin-top: 30px;
+  width: 338px;
+  height: 358px;
+  display: block;
+}
+.menu__side-title {
+  margin-top: 60px;
+  font-size: 20px;
+  color: #C04A81;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.menu__side-p {
+  width: 305px;
+  text-transform: lowercase;
+}
+.menu__side-active {
+  display: grid !important;
+}
+.menu__active {
+  z-index: 7;
+}
