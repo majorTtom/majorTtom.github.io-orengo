@@ -9,14 +9,14 @@ $(document).ready(function(){
 
    /*ПОРЦИОННЫЕ*/
    /*golubika*/
-  $(document).on('mouseover', '.tg', function(e){
+  $(document).on('mouseenter', '.tg', function(e){
     e.preventDefault;
     $('.tg-t').addClass('menu__side-active');
     $('.menu__side').addClass('menu__side-active');
     $('.menu').addClass('menu__active');
   }
 
-  $(document).on('mouseout', '.tg', function(e){
+  $(document).on('mouseleave', '.tg', function(e){
     e.preventDefault;
     $('.tg-t').removeClass('menu__side-active');
     $('.menu__side').removeClass('menu__side-active');
@@ -24,14 +24,14 @@ $(document).ready(function(){
   }
 
   /*fistash tartal(ft)*/
-  $(document).on('mouseover', '.ft', function(e){
+  $(document).on('mouseenter', '.ft', function(e){
     e.preventDefault;
     $('.ft-t').addClass('menu__side-active');
     $('.menu__side').addClass('menu__side-active');
     $('.menu').addClass('menu__active');
   }
 
-  $(document).on('mouseout', '.ft', function(e){
+  $(document).on('mouseleave', '.ft', function(e){
     e.preventDefault;
     $('.ft-t').removeClass('menu__side-active');
     $('.menu__side').removeClass('menu__side-active');
@@ -39,14 +39,14 @@ $(document).ready(function(){
   }
   /*СЛАДКИЕ*/
   /*pk*/
-  $(document).on('mouseover', '.pk', function(e){
+  $(document).on('mouseenter', '.pk', function(e){
     e.preventDefault;
     $('.pk-t').addClass('menu__side-active');
     $('.menu__side').addClass('menu__side-active');
     $('.menu').addClass('menu__active');
   }
 
-  $(document).on('mouseout', '.pk', function(e){
+  $(document).on('mouseleave', '.pk', function(e){
     e.preventDefault;
     $('.pk-t').removeClass('menu__side-active');
     $('.menu__side').removeClass('menu__side-active');
@@ -54,14 +54,14 @@ $(document).ready(function(){
   }
 
   /*печенье брауни(pbr)*/
-  $(document).on('mouseover', '.pbr', function(e){
+  $(document).on('mouseenter', '.pbr', function(e){
     e.preventDefault;
     $('.pbr-t').addClass('menu__side-active');
     $('.menu__side').addClass('menu__side-active');
     $('.menu').addClass('menu__active');
   }
 
-  $(document).on('mouseout', '.pbr', function(e){
+  $(document).on('mouseleave', '.pbr', function(e){
     e.preventDefault;
     $('.pbr-t').removeClass('menu__side-active');
     $('.menu__side').removeClass('menu__side-active');
