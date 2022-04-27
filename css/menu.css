@@ -111,6 +111,8 @@
   font-weight: 100;
 }
 .menu__side-p {
+  font-family: 'Quicksand', sans-serif;
+  font-size:17px;
   width: 305px;
   text-transform: lowercase;
 }
